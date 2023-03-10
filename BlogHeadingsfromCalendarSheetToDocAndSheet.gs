@@ -6,7 +6,7 @@ function getEnvironmentVariables() {
 
     // Id of Training Team Calendar Sheet
     // Copy and Paste your Team Calendar Sheet Id if calendarSheetId has empty string as value
-    "calendarSheetId": "166NVdyOBcp6cOld3NqnAL4jtya-Prbw-x63D3rWLPMQ",
+    "calendarSheetId": "",
 
     // Id of Read Blogs Sheet
     // Copy and Paste your Read Blog Sheet Id if blogSummarySheetId has empty string as value

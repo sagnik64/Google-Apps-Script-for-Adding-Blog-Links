@@ -29,8 +29,10 @@ function getBlogTitleFromUrl(url) {
   let metadata = /<head>([\s\S]*?)<\/head>/gi.exec(html);
   let title = /<title>([\s\S]*?)<\/title>/gi.exec(metadata[1]);
 
-  title = removeSubstringsWithSemicolon(title[1].trim());
-  Logger.log(title);
+  if(title) {
+    title = removeSubstringsWithSemicolon(title[1].trim());
+  }
+  else title = url;
   return title;
 
 }
@@ -116,7 +118,7 @@ function blogLinksfromSheettoDoc() {
       const link = data[i][1];
       const date = Utilities.formatDate(data[i][3],"IST","(dd-MM-yyyy)");
       const title = getBlogTitleFromUrl(link);
-      
+      Logger.log(title);
       writeToDocument(link, date, title);
       writeToSheet(link, data[i][3], title);
     }

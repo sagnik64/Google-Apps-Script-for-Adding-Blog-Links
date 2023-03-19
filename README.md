@@ -32,7 +32,8 @@ Google Apps Script for fetching blogs links from Calendar Sheet and appending bl
 ![Select the main function](Images/function_to_run.jpeg)
 - Save and run your app script
 
-# Testing 
+# Testing
+### [Script Setup Video](https://shorthillstech-my.sharepoint.com/:v:/p/sagnik/EaAxp-7hr2VDlUw9CBzZNe8BkH7SFXfjcdfAZc1nKzJyXA?e=nPyoSx)
 Before running the Google Apps Script for the actual Ids of the required sheets and document, please test the script first by adding sample sheets and documents which are copy of the main sheets and document.
 
 ### Steps for Testing:

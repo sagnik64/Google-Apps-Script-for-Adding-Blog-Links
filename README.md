@@ -10,7 +10,7 @@ Google Apps Script for fetching blogs links from Calendar Sheet and appending bl
 
 
 # How to setup and use the script
-- Create a project from Google Drivea
+- Create a project from Google Drive
   - Open [Google Drive](https://drive.google.com/)
   - Create **New Folder** (suggested)
   - Click **New** > **More** > **Google Apps Script**
